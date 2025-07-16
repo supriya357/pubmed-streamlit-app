@@ -2,7 +2,8 @@ import streamlit as st
 from Bio import Entrez
 
 # Set your email (required by Entrez)
-Entrez.email = "supriya@example.com"  # ✅ Replace with your actual email
+Entrez.email = "akkalasupriya3@gmail.com"  # ✅ Replace with your actual email
+Entrez.api_key = "4bf23c35f17871cdfa7c036b44ea6eca5b09"
 
 st.title("🧠 PubMed Paper Fetcher")
 st.write("Enter a keyword to fetch the latest PubMed research articles.")
